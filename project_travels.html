@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    i{
+        color:rgb(46, 149, 227);
+        font-size: 40px;
+        padding: 10px
+    }
+
+    .col-md-2{
+        border: 1px solid rgb(46, 149, 227) ;
+        background-color: rgb(46, 149, 227);
+        width: 14%; margin: 2px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 3px;
+    }
+
+    .nav1{position: sticky;
+    top: 0px; z-index: 2;}
+
+    .card:hover{ 
+        transform: scale(1.07);
+        
+    }
+
+    .cards{
+      background-image: url(pexels-asadphoto-457881.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    
+    
+</style>
+</head>
+<body>
+    <nav class="nav1">
+    <div class="container-fluid">
+        <div class="row bg-white">
+            <div class="col-md-10"><i class="fa-solid fa-route"></i></div>
+            <div class="col-md-2"><a href="project_travels.html" style="text-decoration: none; color: black;"><h5>Holidays</h5>
+            <h6 style="font-style: italic;">Travel is to Live</h6></a>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg" 
+style="background-color: rgb(37, 24, 47);
+color:rgb(46, 149, 227) ;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="project_travels.html">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PACKAGES
+            </a>
+            <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="tour_europe_package.html">EUROPEAN TOUR PACKAGES</a></li>
+              <li><a class="dropdown-item" href="tour_USA.html">AMERICAN TOUR PACKAGES</a></li>
+              <li><a class="dropdown-item" href="tour_asia.html">ASIAN TOUR PACKAGES</a></li>
+              <li><a class="dropdown-item" href="tour_australia.html">AUSTRALIAN TOUR PACKAGES</a></li>
+
+              <li><a class="dropdown-item" href="tour_india.html">INDIAN TOUR PACKAGES</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactus">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="enquirenow.html">ENQUIRE NOW</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+            <i class="fa-brands fa-facebook text-primary fs-2"></i>
+            <i class="fa-brands fa-instagram fs-2" style="color: rgb(195, 67, 159);"></i>
+            <i class="fa-brands fa-youtube text-danger fs-2"></i>
+            <i class="fa-brands fa-x-twitter fs-2 text-white"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img height="480px" src="beautiful-girl-standing-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>To Travel is to Live</h2>
+          <p>"Live your life by a compass not a clock"</p>          </div>
+      </div>
+      <div class="carousel-item">
+        <img height="480px" src="beautiful-girl-red-bikini-boat-koh-kai-island-thailand.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>To Travel is to Live</h2>
+          <p>"Live your life by a compass not a clock"</p>          </div>
+      </div>
+      <div class="carousel-item">
+        <img height="480px" src="pexels-souvenirpixels-417074.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>To Travel is to Live</h2>
+          <p>"Live your life by a compass not a clock"</p>        </div>
+      </div>
+      <div class="carousel-item">
+        <img height="480px" src="full-shot-travel-concept-with-landmarks.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-primary">
+          <h1>To Travel is to Live</h1>
+          <p>"Live your life by a compass not a clock"</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="cards">
+    <br>
+    <h4 style="color: rgb(37, 24, 47); font-style: italic ;"><center>POPULAR PACKAGES</center></h4>
+    <br>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow bg-transparent" style="width: 18rem; height: 480px;">
+                <img src="destination.1jpg.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dubai</h5>
+                  <p class="card-text">Dubai is a destination that mixes modern culture with history, adventure with world-class shopping and entertainment.</p>
+                  <a href="tour_asia.html" class="btn btn-warning" style="position: absolute; bottom: 20px;">Explore Destination</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow bg-transparent" style="width: 18rem; height: 480px;">
+                <img src="destination2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sicily</h5>
+                  <p class="card-text">A mountainous spot, Sicily's coast and its small islands sit at the foot of volcanoes, including Etna, Stromboli and Vulcano. </p>
+                  <a href="tour_europe_package.html" class="btn btn-warning" style="position: absolute; bottom: 20px;">Explore Destination</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow bg-transparent" style="width: 18rem; height: 480px;">
+                <img src="destination3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paris</h5>
+                  <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc. </p>
+                  <a href="tour_europe_package.html" class="btn btn-warning" style="position: absolute; bottom: 20px;">Explore Destination</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow bg-transparent" style="width: 18rem; height: 510px;">
+                <img src="destination.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bali</h5>
+                  <p class="card-text">Bali is a living postcard, an Indonesian paradise that feels like a fantasy. Soak up the sun on a stretch of fine white sand, or commune with the tropical creatures as you dive along coral ridges.</p>
+                  <a href="tour_asia.html" class="btn btn-warning" style="position: absolute; bottom: 10px;">Explore Destination</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow bg-transparent" style="width: 18rem; height: 510px;">
+                <img src="destination4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rome</h5>
+                  <p class="card-text">It’s nicknamed the Eternal City for a reason. In Rome, you can drink from a street fountain fed by an ancient aqueduct. Or see the same profile on a statue in the Capitoline Museum and the guy making your cappuccino.</p>
+                  <a href="tour_europe_package.html" class="btn btn-warning" style="position: absolute; bottom: 10px;">Explore Destination</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow bg-transparent" style="width: 18rem; height: 510px;">
+                <img src="destination5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hanoi</h5>
+                  <p class="card-text">The charming Vietnamese capital has aged well, preserving the Old Quarter, monuments and colonial architecture, while making room for modern developments alongside. Hanoi.</p>
+                  <a href="tour_asia.html" class="btn btn-warning" style="position: absolute; bottom: 10px;">Explore Destination</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+  </div>
+  <br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="text-align: justify; font-size: 14px;">
+        <h5 id="aboutus"><center> ABOUT US</center></h5>
+        <p>Welcome to Holidays Pvt Ltd, your trusted companion for exploring the incredible beauty and cultural richness of India. We are passionate about crafting seamless and memorable travel experiences for individuals and groups alike. <br>
+
+          Our dedicated team of travel experts combines local knowledge with a global perspective ensuring that your journey with us is not just a trip but a discovery of the diverse flavours traditions, economic culture landscapes and that India has to offer. <br>
+          
+          At Holidays Pvt Ltd, we believe that travel is not just about reaching a destination; so it's about embarking on a journey that transforms moments into memories. As a passionate enthusiasts of India's diverse landscapes, rich cultural heritage, and vibrant traditions, we are here to be your trusted companion in exploring the incredible beauty that country to offer. </p>
+
+          <h5><center>OUR MISSION</center></h5>
+          <p>Our mission is simple yet profound to craft seamless and memorable travel experience for individuals and groups alike. We understand that each traveler is unique, seeking the distinctive encounters that resonate with their interests. That's why weall go beyond tour packages, curating journeys that unfold the hidden gems of India.</p>
+
+          <h5><center>WHY CHOOSE HOLIDAYS PVT LTD?</center></h5>
+          <p> <strong>Local Expertise, Global Perspective:</strong> Our dedicated team of travel experts combines the local knowledge with a global perspective. We strive to showcase the heart and the souls of each destination, providing you with an authentic and enriching experience.
+          <br><strong>Tailored Experiences:</strong>We believe in customization. Whether you're a history buff, nature lover, or culinary enthusiast, our tours are tailored to meet your preferences. Your journey with us is not just a trip: it's a discovery of the diverse landscapes, traditions and flavors of that India has to offer.
+          <br> <strong>Quality and Comfort:</strong> We prioritize your comfort and safety. From carefully selected as accommodations to reliable transportation, we ensure that every aspect of your journey meets the highest standards.
+        </p>
+
+      </div>
+      <div class="col-md-6" style="text-align: justify; font-size: 14px;">
+        <h5><center>OUR VISIONARIES</center></h5>
+        <p>About Holidays: Our founder, Jacob Roy, envisioned Holidays Pvt Ltd as a platform that transcends the ordinary. With a passion for travel and a deep love for India, Jacob Roy outto create a travel company that celebrates the extraordinary diversity of country. <br><br>
+          Founder and Managing Director: Meet Jacob Roy, our visionary founder and managing director. Jacob Roy bring a wealth of experience and a relentless commitment to those delivering unparalleled travel experiences. Under the guidance of, Holidays Pvt Ltd has become synonymous with quality, authenticity, and excellence in the travel industry.</p>
+          <h5><center>FOUNDER AND MANAGING DIRECTOR</center></h5><br>
+          <center><img src="md.jpg" alt="" height="150px" width="200px" style="align-content: center;"></center>
+          <center><strong><p>Jacob Roy</p></strong></center><br>
+          <h5><center>OPERATION MANAGER</center></h5><br>
+          <center><img src="md1.jpg" alt="" height="150px" width="200px"></center>
+          <p><strong><center>Elizabeth</center></strong></p>
+
+        
+      </div>
+    </div>
+
+  </div>
+
+</div>
+  <div class="container-fluid">
+    <div class="row bg-dark text-white">
+      <div class="col-sm-4">
+        <br>
+        <h6 id="contactus">Head Office</h6>
+        <p>
+          Holidays Pvt LTD, <br>
+          Palarivattom, <br>near police station, <br>
+          Ernakulam-682017 <br><br>
+          
+        </p>
+
+        <div style="border-left: 2px solid gray; padding-left:5px;"><h6>Call Us</h6>
+        <p>+91 987543245</p></div>
+      
+      </div>
+    
+
+      <div class="col-sm-3">
+        <br>
+        <h6>Our Branches</h6>
+        <ul style="font-size: 14px;">
+          <li>Ernakulam</li>
+          <li>Hyderabad</li>
+          <li>Chennai</li>
+          <li>Bengaluru</li>
+          <li>Mumbai</li>
+          <li>Delhi</li>
+        </ul>
+        <div style="border-left: 2px solid gray; padding-left:5px;"><h6>Email Us</h6>
+          <p style="font-size: 14px;">holidays@gmail.com</p></div>
+
+      </div>
+      <div class="col-sm-5">
+        <br>
+        <h6> Head Office Location</h6>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15716.847690661663!2d76.29913065926034!3d9.999346022963772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d0bd455b717%3A0x2cd791ee463cf642!2sPalarivattom%2C%20Kochi%2C%20Ernakulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1740127478567!5m2!1sen!2sin" width="380px" height="190px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br><br>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="position: fixed; bottom: 0px;">
+    <div class="row" style="background-color: rgb(37, 24, 47); color:rgb(46, 149, 227) ;">
+      <center>Copyright @ 2024 by Holidays Pvt. Ltd. All Rights Reserved.</center>
+
+    </div>
+  </div>
+</body>
+</html>
